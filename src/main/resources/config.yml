@@ -1,0 +1,7 @@
+# How long the no-PvP grace period lasts (in minutes).
+# The timer only counts down while the player is ONLINE.
+grace-minutes: 60
+
+# If true, a player who still has grace time can't attack others either
+# (stops people from hitting players while being immune themselves).
+block-attacker-while-protected: true

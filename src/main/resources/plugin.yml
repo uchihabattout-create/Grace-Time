@@ -1,0 +1,13 @@
+name: GraceTime
+version: '${project.version}'
+main: me.grace.GraceTime
+api-version: '1.21'
+description: PvP grace period with a countdown bar at the top of the screen
+commands:
+  grace:
+    description: Check, skip or manage your PvP grace time
+    usage: /grace [skip|set <player> <minutes>]
+permissions:
+  grace.admin:
+    description: Lets you set other players' grace time
+    default: op
